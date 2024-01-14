@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+/* signature modal css */
+.section1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* signature modal css */

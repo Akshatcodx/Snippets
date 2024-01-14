@@ -8,8 +8,18 @@ import { SpinnerCircular } from "spinners-react";
 import PlusLayout from "./Components/PlusLayout";
 import Objects from "./Components/Objects";
 import Objects2 from "./Components/Objects2";
+import SignatureModal from "./Signature/SignatureModal";
+import SignatureParentComponent from "./Signature/SignatureParentComponent";
 
 const App = () => {
+  let obj1 = {
+    name: "akshat",
+    roll: 23,
+    address: {
+      city: "mohali",
+    },
+  };
+  let obj2 = JSON.parse(JSON.stringify(obj2));
   return (
     <div>
       <ToastContainer
@@ -23,7 +33,7 @@ const App = () => {
         draggable
         pauseOnHover
       />
-      <Objects2 />
+      <SignatureParentComponent />
     </div>
   );
 };
