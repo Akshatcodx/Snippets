@@ -10,16 +10,14 @@ import Objects from "./Components/Objects";
 import Objects2 from "./Components/Objects2";
 import SignatureModal from "./Signature/SignatureModal";
 import SignatureParentComponent from "./Signature/SignatureParentComponent";
+import Searchbar from "./Searchbar/Searchbar";
+import SearchBarSelect from "./Searchbar/SearchBarSelect";
+import Form_1 from "./Form/Form_1";
+import Func4 from "./Functionality4/Func4";
+import StepWrapper from "./StepperExample1/StepWrapper";
+import One from "./Files/One";
 
 const App = () => {
-  let obj1 = {
-    name: "akshat",
-    roll: 23,
-    address: {
-      city: "mohali",
-    },
-  };
-  let obj2 = JSON.parse(JSON.stringify(obj2));
   return (
     <div>
       <ToastContainer
@@ -33,7 +31,7 @@ const App = () => {
         draggable
         pauseOnHover
       />
-      <SignatureParentComponent />
+      <One />{" "}
     </div>
   );
 };
